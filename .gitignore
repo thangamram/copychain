@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+blockchain/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Hardhat generated files
+blockchain/artifacts/
+blockchain/cache/
+
+# Private keys and wallet files
+*.pem
+*.key

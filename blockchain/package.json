@@ -1,0 +1,19 @@
+{
+  "name": "copychain-blockchain",
+  "version": "1.0.0",
+  "description": "Smart contracts for CopyChain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1"
+  },
+  "type": "module"
+}
